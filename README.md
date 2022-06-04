@@ -1,4 +1,5 @@
 # Deep-Learning-Charity-Funding-Predictor
+![image](https://user-images.githubusercontent.com/94668201/171990561-e7b12594-eb86-4b38-aaf0-f8c6307fe454.png)
 
 ## Background
 
