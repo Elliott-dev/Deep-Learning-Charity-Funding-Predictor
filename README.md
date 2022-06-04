@@ -27,8 +27,8 @@ Using my knowledge of Pandas and the Scikit-Learn’s `StandardScaler()`, I'll n
 Using the information we have provided in the starter code, follow the instructions to complete the preprocessing steps.
 
 1. Read in the charity_data.csv to a Pandas DataFrame, and made sure to identify the following in my dataset:
-  * What variable(s) are considered the target(s) for my model?
-  * What variable(s) are considered the feature(s) for my model?
+  * What variable(s) were considered the target(s) for my model?
+  * What variable(s) were considered the feature(s) for my model?
 2. Dropped the `EIN` and `NAME` columns.
 3. Determined the number of unique values for each column.
 4. For those columns that have more than 10 unique values, determined the number of data points for each unique value.
@@ -37,7 +37,7 @@ Using the information we have provided in the starter code, follow the instructi
 
 ### Step 2: Compile, Train, and Evaluate the Model
 
-Using my knowledge of TensorFlow, I'll design a neural network, or deep learning model, to create a binary classification model that can predict if an Alphabet Soup–funded organization will be successful based on the features in the dataset. I'll need to think about how many inputs there are before determining the number of neurons and layers in my model. Once I've completed that step, I'll compile, train, and evaluate my binary classification model to calculate the model’s loss and accuracy.
+Using my knowledge of TensorFlow, I designed a neural network, or deep learning model, to create a binary classification model that can predict if an Alphabet Soup–funded organization will be successful based on the features in the dataset. I needed to think about how many inputs there are before determining the number of neurons and layers in my model. Once I had completed that step, I compiled, trained, and evaluated my binary classification model to calculate the model’s loss and accuracy.
 
 1. Continued using the jupter notebook where I've already performed the preprocessing steps from Step 1.
 2. Created a neural network model by assigning the number of input features and nodes for each layer using Tensorflow Keras.
@@ -65,7 +65,6 @@ Optimized my model in order to achieve a target predictive accuracy higher than 
 * Using different activation functions for the hidden layers.
 * Adding or reducing the number of epochs to the training regimen.
 
-**NOTE**: I will not lose points if your model does not achieve target performance, as long as you make three attempts at optimizing the model in your jupyter notebook.
 
 1. Created a new Jupyter Notebook file and name it `AlphabetSoupCharity_Optimzation.ipynb`.
 2. Imported my dependencies, and read in the `charity_data.csv` to a Pandas DataFrame.
@@ -73,15 +72,15 @@ Optimized my model in order to achieve a target predictive accuracy higher than 
 4. Designed a neural network model, taking into account any modifications that will optimize the model to achieve higher than 75% accuracy.
 5. Saved and exported my results to an HDF5 file, and name it `AlphabetSoupCharity_Optimization.h5`.
 
-### Step 4: Write a Report on the Neural Network Model
+### Step 4: Wrote a Report on the Neural Network Model
 
-For this part of the Challenge, I'll write a report on the performance of the deep learning model I created for AlphabetSoup.
+For this part of the Challenge, I'll wrote a report on the performance of the deep learning model I created for AlphabetSoup.
 
-The report should contain the following:
+The report contained the following:
 
-1. **Overview** of the analysis: Explain the purpose of this analysis.
+1. **Overview** of the analysis: Explained the purpose of this analysis.
 
-2. **Results**: Using bulleted lists and images to support my answers, address the following questions.
+2. **Results**: Using bulleted lists and images to support my answers, addressed the following questions.
 
   * Data Preprocessing
     * What variable(s) are considered the target(s) for my model?
