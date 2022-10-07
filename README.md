@@ -23,9 +23,9 @@ From Alphabet Soup’s business team, I have received a CSV containing more than
 
 ### Step 1: Preprocess the data
 
-Using my knowledge of Pandas and the Scikit-Learn’s `StandardScaler()`, I'll need to preprocess the dataset in order to compile, train, and evaluate the neural network model later in Step 2
+Using my knowledge of Pandas and the Scikit-Learn’s `StandardScaler()`, I preprocessed the dataset in order to compile, train, and evaluate the neural network model later in Step 2
 
-Using the information we have provided in the starter code, follow the instructions to complete the preprocessing steps.
+
 
 1. Read in the charity_data.csv to a Pandas DataFrame, and made sure to identify the following in my dataset:
   * What variable(s) were considered the target(s) for my model?
@@ -75,7 +75,7 @@ Optimized my model in order to achieve a target predictive accuracy higher than 
 
 ### Step 4: Wrote a Report on the Neural Network Model
 
-For this part of the Challenge, I'll wrote a report on the performance of the deep learning model I created for AlphabetSoup.
+For this part of the Challenge, I wrote a report on the performance of the deep learning model I created for AlphabetSoup.
 
 The report contained the following:
 
